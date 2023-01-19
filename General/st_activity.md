@@ -8,18 +8,15 @@
 
 ## Overview
 
-```markdown
-
 the Activity is the **Edges** /Lines that get out from **form**, and it describes how the flow "next form" in the process.
 in most cases, we have for the form three Activities so we call **first three Activities** in code:
+
 1. approve
 2. rejected
 3. return
 and in any case, we have an extra option we can call it and a related name like "extra button".  
 **Note** if there is more than Edge/Line get out from the same form all count as one activity with the same name "Like: activity 1  in [this](./general.md/#general-image)"
-**Note** There is one extra activity that works all over the process called "end request" that end and kills the request. 
-
-```
+**Note** There is one extra activity that works all over the process called "end request" that end and kills the request.
 
 ## Activity Behavior
 
