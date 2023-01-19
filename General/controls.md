@@ -8,10 +8,7 @@
 
 ## Overview
 
-```markdown
 a felid/input that has his one data type and name and his attribute.
-
-```
 
 ## naming in controls
 
