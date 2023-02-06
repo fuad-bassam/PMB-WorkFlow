@@ -1,20 +1,30 @@
 /////////////////////////
 Activity
-لوين رايحه 
+**going to**  
 WF_Activity_Of_Process-> WF_Activity_Of_Process_URL
 
-من اي فورم جاية 
-WF_Task_List 
+**coming from any form**  
+WF_Task_List  
 HistoryInstanceProcess 
+3. find add Activity that related to specific process
+
+FROM WF_Activity_Of_Process and send process id
+
 /////////////////////////
 
 /////////////////////////
 Process
-start from activity 
+1. Process start from activity 
 
-to find the the configurations and options to process
+2. can find the configurations and options to process from "WF_Process" table
 
-to find all activity we use "WF_Activity_Of_Process" table with process_id
+3. can find all activities from "WF_Activity_Of_Process" table with
+
+4. can't  find all forms from Process we need to find the activities from "WF_Activity_Of_Process" first then chose "WF_Activity_Of_Process_URL" column
+
+///////////////
+ find the order of activities
+ find the order of forms
 
 /////////////////////////
 Form
